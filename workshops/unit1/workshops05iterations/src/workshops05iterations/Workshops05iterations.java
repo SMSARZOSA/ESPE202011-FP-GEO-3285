@@ -17,7 +17,8 @@ public class Workshops05iterations {
     public static void main(String[] args) {
         // TODO code application logic here
             int i;
-            i=0;
+            i=0; //variable
+            final float pi= 3.14F; //Constante
             
             System.out.println("first even numbers ");
             while( i < 10){
@@ -47,9 +48,16 @@ public class Workshops05iterations {
                     System.out.println(" 7 * " + j + " = " + product);
                     
                 }
+        String number = null;
             
-                    
-                    
+        //7.7 ->float
+        // 7 -> int or float
+        String realNumber;
+        realNumber = number;
+           System.out.println("integer number --> " + number);
+           System.out.println("float realNumber --> " + realNumber) ;   
+           realNumber = 6.7F;
+           
     }
     
 }
