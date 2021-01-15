@@ -46,20 +46,48 @@ public class WS07 {
                     System.out.println(" the sum is --> " + sum);
                     break;
                 case 2:
-                    System.out.println("The modulus is");
+                    int difference;
+                    int subtrahend;
+                    int minuend;
+                    System.out.println("enter minuend -> ");
+                    minuend = input.nextInt();
+                    System.out.println("enter subtrahend -> ");
+                    subtrahend = input.nextInt();
+                    sum = minuend - subtrahend;
+                    System.out.println(" the difference is --> " + difference);
+                    System.out.println("The subtraction is");
                     break;
                 case 3:
-                    System.out.println("The increment is");
+                    int product;
+                    int multiplicant = 0;
+                    int multiplier;
+                    System.out.println("enter multiplier -> ");
+                    multiplier = input.nextInt();
+                    System.out.println("enter multiplicant -> ");
+            int multiplicand;
+            multiplicand = input.nextInt();
+                    product = multiplicant * multiplier;
+                    System.out.println(" the product is --> " + product);
+                    System.out.println("The multiplication is");
                     break;
                 case 4:
-                    System.out.println("The decremet is");
+                    int quotient;
+                    int divisor;
+                    int dividend;
+                    System.out.println("enter divisor  -> ");
+                    divisor = input.nextInt();
+                    System.out.println("enter dividend -> ");
+                    dividend = input.nextInt();
+                    quotient = dividend / divisor;
+                    System.out.println(" the quotient --> " + quotient);
+                    System.out.println("The division is");
                     break;
                 case 5:
                     System.out.println("Good Bye my friend");
                     System.exit(0);
                     break;
                 default:
-                    System.out.println("Invalid option\n\n\n");
+            
                     break;
 
             }
