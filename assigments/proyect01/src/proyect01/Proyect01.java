@@ -6,6 +6,7 @@
 package proyect01;
 
 import java.util.Scanner;
+import static javax.swing.Spring.height;
 
 /**
  *
@@ -27,7 +28,7 @@ public class Proyect01 {
             System.out.println("1. -> perimeter of a plot ");
             System.out.println("2. -> area of ​​land");
             System.out.println("3. -> magnitude of an earthquake");
-            System.out.println("4. -> Division");
+            System.out.println("4. -> tidal range");
             System.out.println("5. -> Exit");
 
             System.out.println("Enter your menu option --> ");
@@ -75,7 +76,16 @@ public class Proyect01 {
                     System.out.println("The magnitude of an earthquake" + magnitude);
                     break;
                 case 4:
-                    System.out.println("The division is");
+                    float tallheight;
+                    float lowheight;
+                    float amplitude1;
+                    System.out.println(" tallheight -> ");
+                    tallheight = input.nextInt();
+                    System.out.println(" lowheight -> ");
+                    lowheight = input.nextInt();
+                    amplitude1= tallheight - lowheight;
+                    
+                    System.out.println("tidal range" + amplitude1);
                     break;
                 case 5:
                     System.out.println("Good Bye my friend");
