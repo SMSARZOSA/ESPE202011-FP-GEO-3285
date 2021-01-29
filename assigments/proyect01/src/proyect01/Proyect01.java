@@ -37,41 +37,41 @@ public class Proyect01 {
             switch (option) {
 
                 case 1:
-                    int side1;
-                    int side2;
-                    int side3;
-                    int perimeter;
+                    float side1;
+                    float side2;
+                    float side3;
+                    float perimeter;
                     System.out.println("enter side1 -> ");
-                    side1 = input.nextInt();
+                    side1 = input.nextFloat();
                     System.out.println("enter side2 -> ");
-                    side2 = input.nextInt();
+                    side2 = input.nextFloat();
                     System.out.println("enter side3 -> ");
-                    side3 = input.nextInt();
+                    side3 = input.nextFloat();
                     perimeter = side1 + side2 + side3;
                     
                     System.out.println(" the perimeter of a plot is --> " + perimeter);
                     break;
                 case 2:
-                    int equivalentdistances;
-                    int bandwidth;
-                    int area;
+                    float equivalentdistances;
+                    float bandwidth;
+                    float area;
                     System.out.println(" enter equivalentdistances -> ");
-                    equivalentdistances = input.nextInt();
+                    equivalentdistances = input.nextFloat();
                     System.out.println("enter bandwidth -> ");
-                    bandwidth = input.nextInt();
+                    bandwidth = input.nextFloat();
                     area = equivalentdistances*bandwidth ;
                     
                     System.out.println("The area of land is -->" + area);
                     break;
                 case 3:
-                    int amplitude;
-                    int timevariation;
-                    int magnitude;
+                    float amplitude;
+                    float timevariation;
+                    float magnitude;
                     System.out.println(" amplitude -> ");
-                    amplitude = input.nextInt();
+                    amplitude = input.nextFloat();
                     System.out.println(" time varation -> ");
-                    timevariation = input.nextInt();
-                    magnitude = (int)(Math.log10(amplitude)+ 3 * Math.log10(8 * timevariation)-3);
+                    timevariation = input.nextFloat();
+                    magnitude = (float)(Math.log10(amplitude)+ 3 * Math.log10(8 * timevariation)-2.85);
                     
                     System.out.println("The magnitude of an earthquake" + magnitude);
                     break;
@@ -80,15 +80,15 @@ public class Proyect01 {
                     float lowheight;
                     float amplitude1;
                     System.out.println(" tallheight -> ");
-                    tallheight = input.nextInt();
+                    tallheight = input.nextFloat();
                     System.out.println(" lowheight -> ");
-                    lowheight = input.nextInt();
+                    lowheight = input.nextFloat();
                     amplitude1= tallheight - lowheight;
                     
                     System.out.println("tidal range" + amplitude1);
                     break;
                 case 5:
-                    System.out.println("Good Bye my friend");
+                    System.out.println("thanks for using our program");
                     System.exit(0);
                     break;
                 default:
