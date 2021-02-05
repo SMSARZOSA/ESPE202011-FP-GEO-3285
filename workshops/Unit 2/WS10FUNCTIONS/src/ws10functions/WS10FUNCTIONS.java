@@ -16,15 +16,15 @@ public class WS10FUNCTIONS {
      */
     public static void main(String[] args) {
         // call to divideTwoNumbers() function
-        int divd = 5;
-        int divr = 10;
+        int divd = 55;
+        int divr = 40;
         float quotient = 0;
         int x = 0;
         int y = 0;
          //call to divideTwoNumbers() function
         quotient = divideTwoNumbers(divd, divr);
 
-        System.out.println("Quotient of 5 and 10 is -> " + quotient); //0.5 or ?
+        System.out.println("Quotient of 55 and 40 is -> " + quotient); //0.5 or ?
 
         y = f(3);
         System.out.println("3^2 -> " + y);
