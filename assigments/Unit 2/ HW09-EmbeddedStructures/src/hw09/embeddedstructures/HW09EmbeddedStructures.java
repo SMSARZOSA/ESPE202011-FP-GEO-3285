@@ -30,15 +30,15 @@ public class HW09EmbeddedStructures {
         double k;
       do {
        
-          System.out.print("Enter First Number: ");
-        operator = teclado.nextInt();
+       System.out.print("Enter First Number: ");
+       operator = teclado.nextInt();
        System.out.print("Enter Second Number: ");
-        operator2 = teclado.nextInt();
+       operator2 = teclado.nextInt();
        
-         System.out.println( " ================================ ");
+        System.out.println( " ================================ ");
         System.out.println( " Numbers Multiple of 2 ");
         if(operator % 2 == 0) {
-            System.out.println(operator+" Even Number .");
+        System.out.println(operator+" Even Number .");
                       
         if(operator2 % 2 == 0) {
             System.out.println(operator2+" Even Number .");

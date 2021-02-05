@@ -21,43 +21,32 @@ public class HW10FUCTIONS {
         Scanner input= new Scanner(System.in);
        
         double dividend;
-        double divider;
+        double divisor;
         double quotient;
-        double variablex,variablex1;
+        double variableX,variableX1;
         double number,range;
         
        System.out.println("insert two numbers for division");
        dividend= input.nextDouble();
-       divider= input.nextDouble();
-       quotient=divideTwoNumbers(dividend,divider);
+       divisor= input.nextDouble();
+       quotient=divideTwoNumbers(dividend,divisor);
        
-       System.out.println(" The Division between " + " " + dividend + " / " + divider + " " + 
+       System.out.println(" The Division between " + " " + dividend + " / " + divisor + " " + 
                " is iqual to " + " " + quotient);  
        
        System.out.println("enter the value of the variablex .. ");
-       variablex= input.nextDouble();
-       System.out.println(" the fuction f(x) gives as an answer --> " + fuction1(variablex));
+       variableX= input.nextDouble();
+       System.out.println(" the fuction f(x) gives as an answer --> " + computeSquare(variableX));
        
         System.out.println("enter the value of the variablex1 .. ");
-       variablex1= input.nextDouble();
-       System.out.println(" the fuction g(x) gives as an answer --> " + fuction2(variablex1));
+       variableX1= input.nextDouble();
+       System.out.println(" the fuction g(x) gives as an answer --> " + computeParabola(variableX1));
        
        System.out.println("enter the number from the multiplication table .. ");
        number= input.nextDouble();
        System.out.println("enter the range from the multiplication table .. ");
        range= input.nextDouble();
-      MULTIPLICATIONTABLE(number,range);
-       
-               
-       
-       
-       
-       
-       
-         
-                 
-         
-                 
+      showTheMultiplicationTable(number,range);                              
     }
     public static double divideTwoNumbers(double dividend, double divider) {
         double quotient = 0;
@@ -65,16 +54,16 @@ public class HW10FUCTIONS {
 
         return quotient;         
     }
-    public static double fuction1(double variablex ){
+    public static double computeSquare(double variablex ){
     double variabley;
     variabley=variablex*variablex;
     return variabley;
     
 }
-    public static double fuction2(double variablex){
+    public static double computeParabola(double variablex){
         return variablex * variablex +2 *variablex + 1;
     }
-    public static void MULTIPLICATIONTABLE(double number, double range){
+    public static void showTheMultiplicationTable(double number, double range){
        double answer;
        
        
