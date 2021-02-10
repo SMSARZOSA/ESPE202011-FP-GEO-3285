@@ -23,15 +23,7 @@ public class Ws11pegazus {
         int option;
 
              do {
-            System.out.println(" ========= PEGAZUS =======");
-            System.out.println("1. -> Perimeter of  Plot ");
-            System.out.println("2. -> Area of Surface");
-            System.out.println("3. -> Magnitude of an Earthquake");
-            System.out.println("4. -> Tidal Range");
-            System.out.println("5. -> Exit");
-
-            System.out.println("Enter your menu option --> ");
-            option = input.nextInt();
+            option = printDatesMenus(input);
                     double number1;
                     double number2;
                     double number3;
@@ -77,6 +69,19 @@ public class Ws11pegazus {
         } while (option != 5);
         
         
+    }
+
+    private static int printDatesMenus(Scanner input) {
+        int option;
+        System.out.println(" ========= PEGAZUS =======");
+        System.out.println("1. -> Perimeter of  Plot ");
+        System.out.println("2. -> Area of Surface");
+        System.out.println("3. -> Magnitude of an Earthquake");
+        System.out.println("4. -> Tidal Range");
+        System.out.println("5. -> Exit");
+        System.out.println("Enter your menu option --> ");
+        option = input.nextInt();
+        return option;
     }
 
     private static void calculateWaveRange(Scanner input) {
