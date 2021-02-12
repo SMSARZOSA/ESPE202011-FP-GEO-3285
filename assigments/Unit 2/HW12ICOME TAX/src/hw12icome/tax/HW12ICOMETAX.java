@@ -44,94 +44,12 @@ public class HW12ICOMETAX {
         }else{
         System.out.println("you do not pay taxes for the exit of foreign currency");
         
-       System.out.println("=================");
-       value=input.nextDouble();
-        System.out.println("enter a value");
-   if(value>=0 && value<11290){
-   basicfraction=0;
-   taxonthebasicfraction=0;
-   surplusfraction=0;
-   outcome=value-basicfraction;
-   percentage=outcome*surplusfraction;
-   sum=percentage+taxonthebasicfraction;
-   System.out.println(" outcome: "+outcome);
-         }
-   if(value>=11290 && value<14390){
-   basicfraction=11290;
-   taxonthebasicfraction=0;
-   surplusfraction=0.5;
-   outcome=value-basicfraction;
-   percentage=outcome*surplusfraction;
-   sum=percentage+taxonthebasicfraction;
-   System.out.println(" outcome: "+outcome);
-   
-   
-   }
-   if(value>=14390 && value< 17990){
-   basicfraction=14390;
-   taxonthebasicfraction=155;
-   surplusfraction=0.10;
-   outcome=value-basicfraction;
-   percentage=outcome*surplusfraction;
-   sum=percentage+taxonthebasicfraction;
-   System.out.println(" outcome: "+outcome);
-   }
-   if(value>=17990 && value< 21600){
-   basicfraction=17990;
-   taxonthebasicfraction=515;
-   surplusfraction=0.12;
-   outcome=value-basicfraction;
-   percentage=outcome*surplusfraction;
-   sum=percentage+taxonthebasicfraction;
-   System.out.println(" outcome: "+outcome);
-   }
-    if(value>=21600 && value< 43190){
-    basicfraction=21600;
-    taxonthebasicfraction=948;
-    surplusfraction=0.15;
-    outcome=value-basicfraction;
-    percentage=outcome*surplusfraction;
-    sum=percentage+taxonthebasicfraction;
-    System.out.println(" outcome: "+outcome);
-   }
-    if(value>=43190 && value< 64770){
-    basicfraction=43190;
-    taxonthebasicfraction=4187;
-    surplusfraction=0.20;
-    outcome=value-basicfraction;
-    percentage=outcome*surplusfraction;
-    sum=percentage+taxonthebasicfraction;
-    
-     System.out.println(" outcome: "+outcome);
-   }
-    if(value>=64770 && value<86370 ){
-    basicfraction=64770;
-    taxonthebasicfraction=8503;
-    surplusfraction=0.25;
-    outcome=value-basicfraction;
-    percentage=outcome*surplusfraction;
-    sum=percentage+taxonthebasicfraction;
-    
-     System.out.println(" outcome: "+outcome);
-   }
-   
-    if(value>=86370 && value<115140){
-    basicfraction=86370;
-    taxonthebasicfraction=13903;
-    surplusfraction=0.30;
-    outcome=value-basicfraction;
-    percentage=outcome*surplusfraction;
-    sum=percentage+taxonthebasicfraction;
-    
-     System.out.println(" outcome: "+outcome);
-   }
-       
-        
-              
+       System.out.println("=================");  
+       sum=enterIncomeText();
    
     }
 }
-
+    
     
     public static double valueAddedTax( double purchase ){
     double IVA=0.0F;
