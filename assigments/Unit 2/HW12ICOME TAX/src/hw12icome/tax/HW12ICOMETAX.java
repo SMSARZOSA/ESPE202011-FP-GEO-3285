@@ -69,9 +69,9 @@ public class HW12ICOMETAX {
     double result;
     double percent;
     double sum = 0;
-    Scanner entrada =new Scanner (System.in);
+    Scanner input =new Scanner (System.in);
     System.out.println("enter the number: ");
-         value = entrada.nextInt();
+         value = input.nextInt();
          if(value >=0 && value <11290){
          ifb=0;
          ife=0;
