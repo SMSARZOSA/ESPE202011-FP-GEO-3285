@@ -40,14 +40,14 @@ public class Ws13calculate {
         radio=input.nextDouble();
         System.out.println("isert the height");
         height=input.nextDouble();
-        area2=calculateTheAreaOfTheCylindre(radio,height);
+        area2=calculateAreaOfCylindre(radio,height);
         System.out.println("areacylinder"+area2);
         System.out.println("=========area of ​​a cone=======");
         System.out.println("isert the generatrix");
         generatrix=input.nextDouble();
         System.out.println("isert the radio");
         radio= input.nextDouble();
-        area3= calculateTheAreaOfTheCone(radio,generatrix);
+        area3= compute_area_of_the_cone(radio,generatrix);
         System.out.println("areacylinder"+area3);
         System.out.println("=========formula to get the acceleration=======");
         System.out.println("isert the final speed");
@@ -56,19 +56,19 @@ public class Ws13calculate {
         speedo= input.nextDouble();
         System.out.println("isert the time");
         time=input.nextDouble();
-        acceleration= takeOffTheAcceleration(speedf,speedo,time);
+        acceleration= calculateOffTheAcceleration(speedf,speedo,time);
         System.out.println("acceleration"+ acceleration);
         System.out.println("=========formula to get the period at l angular velocity=======");
         System.out.println("isert the angular velocity");
         angularvelocity=input.nextDouble();
-        period= takeOffThePeriod(angularvelocity);
+        period= calculateOffThePeriod(angularvelocity);
         System.out.println("period" + period);
         System.out.println("=========centripetal acceleration=======");
         System.out.println("isert the speed");
         speed=input.nextDouble();
         System.out.println("isert the radio");
         radio= input.nextDouble();
-        accelerationC=takeOffTheCentripetalAcceleration(speed,radio);
+        accelerationC=calculateOffTheCentripetalAcceleration(speed,radio);
         System.out.println(" accelerationC" +  accelerationC);
          
         
@@ -81,27 +81,27 @@ public class Ws13calculate {
    area= (base*height)/2;
    return area;
    }
-   public static double calculateTheAreaOfTheCylindre(double radio, double height){
+   public static double calculateAreaOfCylindre(double radio, double height){
    double area2=0.0f;
    area2= (2*3.14*radio)*(radio+height);
    return area2;
    }
-   public static double calculateTheAreaOfTheCone(double radio, double generatrix){
+   public static double compute_area_of_the_cone(double radio, double generatrix){
    double area3=0.0f;
    area3= 3.14*radio*generatrix;
    return area3;
    }
-   public static double takeOffTheAcceleration(double speedf,double speedo,double time){
+   public static double calculateOffTheAcceleration(double speedf,double speedo,double time){
    double acceleration=0.0f;
    acceleration= (speedf-speedo)/time;
    return acceleration;
    }
-   public static double takeOffThePeriod(double angularvelocity){
+   public static double calculateOffThePeriod(double angularvelocity){
    double period=0.0f;
    period= (2*3.14)/angularvelocity;
    return period;
    }
-    public static double takeOffTheCentripetalAcceleration(double speed, double radio){
+    public static double calculateOffTheCentripetalAcceleration(double speed, double radio){
    double accelerationC=0.0f;
    accelerationC= (speed*speed)/radio;
    return accelerationC;
