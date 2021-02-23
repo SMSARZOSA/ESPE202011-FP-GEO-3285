@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package hw15.matrixaddition;
+package wh15.matrixsubtraction;
 
 import java.util.Scanner;
 
@@ -11,14 +11,14 @@ import java.util.Scanner;
  *
  * @author Shirley
  */
-public class HW15MatrixAddition {
+public class WH15MatrixSubtraction {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-    int [][] a;
+         int [][] a;
     int [][] b;
     int [][] c;
     
@@ -84,3 +84,6 @@ public class HW15MatrixAddition {
     }
   }
 }
+    
+    
+
