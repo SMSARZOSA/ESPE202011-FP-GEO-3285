@@ -18,7 +18,7 @@ public class WH15MatrixSubtraction {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-         int [][] a;
+    int [][] a;
     int [][] b;
     int [][] c;
     
