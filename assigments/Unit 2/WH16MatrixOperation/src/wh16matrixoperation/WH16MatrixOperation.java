@@ -34,8 +34,7 @@ public class WH16MatrixOperation {
     a= new int[m][n];
     b= new int[m][n];
     c = new int[m][n];
-    
-    
+     
     System.out.println("----MATRIX A----");
      a=readMatrixElements(m, n, "A",input);
     System.out.println("----MATRIX B----");
@@ -43,8 +42,6 @@ public class WH16MatrixOperation {
     System.out.println("----The Subtraction MATRIX Subtraction ----");
     c= restartTwoMatrices( m, n, a, b);
         printMatrix(a, b, c);
-    
-  
     }
 
     private static void printMatrix(int[][] a, int[][] b, int[][] c) {
@@ -74,9 +71,7 @@ public class WH16MatrixOperation {
             
         }
     }
-
-    
-    
+   
     public static int[][] readMatrixElements(int m, int n, String matrixName, Scanner input) {
         int [][] matrix;
         matrix=new int [m][n];
