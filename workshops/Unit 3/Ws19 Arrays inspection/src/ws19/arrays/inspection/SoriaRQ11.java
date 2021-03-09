@@ -24,7 +24,7 @@ public class SoriaRQ11 {
          int[] value = new int[5];
         int sum = 0;
 
-        //sum = Add(value, input, sum);
+        sum = Add(value, input, sum);
          System.out.println(" The sum is --> " + sum);
         
         Scanner in = new Scanner(System.in);
@@ -40,6 +40,8 @@ public class SoriaRQ11 {
         System.out.println("Find a number");
         int[] num = {12,23,34,98,87,65,0};
         int toFind = 120;
+// no existen llamadas call to computeAverage() /3	call to find()  /4
+
 
         boolean found = IntStream.of(num).anyMatch(n -> n == toFind);
 
@@ -47,6 +49,8 @@ public class SoriaRQ11 {
             System.out.println(toFind + " is found.");
         else
             System.out.println(toFind + " isn't found.");
+        //NO existe la función de fIND
+        
     }	
 
   public static double average(double x, double y, double z)

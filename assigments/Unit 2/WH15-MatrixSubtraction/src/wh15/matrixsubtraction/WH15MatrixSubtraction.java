@@ -27,6 +27,8 @@ public class WH15MatrixSubtraction {
     
     
     Scanner input=new Scanner(System.in);
+    
+    System.out.println(" AUTHOR: SHIRLEY SARZOSA");
     System.out.println("Enter the matrix dimensions"); 
     System.out.println("\n m -> ");
     m=input.nextInt();
