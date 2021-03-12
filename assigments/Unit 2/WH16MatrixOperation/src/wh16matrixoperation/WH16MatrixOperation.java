@@ -36,7 +36,7 @@ public class WH16MatrixOperation {
     c = new int[m][n];
      
     System.out.println("----MATRIX A----");
-     a=readMatrixElements(m, n, "A",input);
+    a=readMatrixElements(m, n, "A",input);
     System.out.println("----MATRIX B----");
     b=readMatrixElements(m, n, "A",input);
     System.out.println("----The Subtraction MATRIX Subtraction ----");
