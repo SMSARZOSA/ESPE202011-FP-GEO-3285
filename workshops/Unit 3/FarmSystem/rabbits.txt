@@ -1,0 +1,6 @@
+
+Baby, Lion Head Rabbit, 2, false
+Princesa, Dutch Belier, 3, true
+Duksito, Mini Rex, 5, false
+Puerkin, Mellerub, 3, true
+Lucia, Mini Rex, 4, false
