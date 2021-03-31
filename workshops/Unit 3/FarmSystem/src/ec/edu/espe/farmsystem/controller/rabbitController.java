@@ -15,14 +15,13 @@ import utils.FileManager;
 public class rabbitController {
     public  void save(Rabbit rabbit){
         
-        String data = rabbit.getName() + ", " + rabbit.getRace() + ", " + rabbit.getWeight() + ", " + rabbit.isIsSterelized();
-        FileManager.save(data, "rabbits");
-        
+        String data = rabbit.getName() + ";" + rabbit.getRace() + ";" + rabbit.getWeight() + ";" + rabbit.isIsSterelized();
+        FileManager.save(data, "rabbits");   
         
     }
     public String read(){
         String data;
-        data = FileManager.read("rabbits");
+        data = FileManager.read("rabbits.csv");
         return data;            
                 
     }
