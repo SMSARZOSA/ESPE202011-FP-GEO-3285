@@ -27,7 +27,7 @@ public class Ws11pegazus {
                     double number1;
                     double number2;
                     double number3;
-                    double perimeter;
+                    double perimmeter;
            
             switch (option) {
 
