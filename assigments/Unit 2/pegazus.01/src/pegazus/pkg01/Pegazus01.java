@@ -206,7 +206,7 @@ public class Pegazus01 {
     }
 
     private static double calculateTheAreaOfSurface(double equivalentdistances,
-            double terrainWidth) {
+        double terrainWidth) {
         double area;
         area = equivalentdistances * terrainWidth;
         return area;
